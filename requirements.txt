@@ -1,0 +1,41 @@
+# Core
+python-dotenv==1.0.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Queue & Caching
+redis==5.0.1
+celery==5.3.4
+
+# API Clients
+anthropic==0.39.0
+praw==7.7.1
+google-api-python-client==2.111.0
+
+# NLP & Language
+langdetect==1.0.9
+langid==1.1.6
+
+# Data Processing (Python 3.8 compatible)
+pandas==2.0.3
+numpy==1.24.3
+
+# HTTP & Scraping
+requests==2.31.0
+httpx==0.26.0
+beautifulsoup4==4.12.2
+
+# Utilities
+pydantic==2.5.3
+python-dateutil==2.8.2
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+
+# Development
+black==23.12.1
+flake8==7.0.0
